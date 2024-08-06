@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/My_portfolio/static/css/main.93da393f.css",
+    "main.js": "/My_portfolio/static/js/main.034d043a.js",
+    "static/media/d1p.png": "/My_portfolio/static/media/d1p.da173981e57c41430a72.png",
+    "static/media/d5p.png": "/My_portfolio/static/media/d5p.38c7885987d567629df2.png",
+    "static/media/ecommerce.png": "/My_portfolio/static/media/ecommerce.522da76635d52117102b.png",
+    "static/media/d4p.png": "/My_portfolio/static/media/d4p.ac0421927205acea134e.png",
+    "static/media/d3p.png": "/My_portfolio/static/media/d3p.f4b4cddd3fb9761f193a.png",
+    "static/media/d2p.png": "/My_portfolio/static/media/d2p.59a04250375ce71b68cc.png",
+    "static/media/resume.pdf": "/My_portfolio/static/media/resume.944ae2c2747f86318de8.pdf",
+    "static/media/sidebar.png": "/My_portfolio/static/media/sidebar.b2225070b8adae68d063.png",
+    "static/media/musicapp.png": "/My_portfolio/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/boy.png": "/My_portfolio/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/glassesimoji.png": "/My_portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/hoc.png": "/My_portfolio/static/media/hoc.e6af51fc04c57ae67096.png",
+    "static/media/thumbup.png": "/My_portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/My_portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/My_portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/My_portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/My_portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/My_portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/My_portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/My_portfolio/index.html",
+    "main.93da393f.css.map": "/My_portfolio/static/css/main.93da393f.css.map",
+    "main.034d043a.js.map": "/My_portfolio/static/js/main.034d043a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93da393f.css",
+    "static/js/main.034d043a.js"
+  ]
+}
