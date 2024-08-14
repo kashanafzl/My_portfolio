@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_portfolio/static/css/main.a25d602d.css",
-    "main.js": "/My_portfolio/static/js/main.a482ba5a.js",
+    "main.css": "/My_portfolio/static/css/main.1c23bf8b.css",
+    "main.js": "/My_portfolio/static/js/main.a03164fa.js",
     "static/media/resume.pdf": "/My_portfolio/static/media/resume.6b154ea07b12612421c0.pdf",
     "static/media/p3.png": "/My_portfolio/static/media/p3.9a641e20a7bc7e2ac751.png",
     "static/media/p7.png": "/My_portfolio/static/media/p7.c41a5606e0ef74905ba4.png",
@@ -15,14 +15,15 @@
     "static/media/p5.png": "/My_portfolio/static/media/p5.c87302c65952f457418f.png",
     "static/media/p1.png": "/My_portfolio/static/media/p1.67e39586eab526cbbfce.png",
     "static/media/glassesimoji.png": "/My_portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/amar.jpg": "/My_portfolio/static/media/amar.05bfce1f3ad24808d0cd.jpg",
     "static/media/thumbup.png": "/My_portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
     "static/media/crown.png": "/My_portfolio/static/media/crown.dbe416beae9b49b842ab.png",
     "index.html": "/My_portfolio/index.html",
-    "main.a25d602d.css.map": "/My_portfolio/static/css/main.a25d602d.css.map",
-    "main.a482ba5a.js.map": "/My_portfolio/static/js/main.a482ba5a.js.map"
+    "main.1c23bf8b.css.map": "/My_portfolio/static/css/main.1c23bf8b.css.map",
+    "main.a03164fa.js.map": "/My_portfolio/static/js/main.a03164fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.a25d602d.css",
-    "static/js/main.a482ba5a.js"
+    "static/css/main.1c23bf8b.css",
+    "static/js/main.a03164fa.js"
   ]
 }
