@@ -6,6 +6,11 @@ import Sidebar from "../../img/p1.png";
 import Ecommerce from "../../img/p3.png";
 import HOC from "../../img/p5.png";
 import p10 from "../../img/p10.png";
+import gymwebsite from '../../img/g.png'
+import carwebsite from '../../img/g2.png'
+import shorturl from '../../img/g3.png'
+import teachme from '../../img/g4.png'
+import wakeelclient from '../../img/g5.png'
 import MusicApp from "../../img/p7.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion"; // Import Framer Motion
@@ -103,13 +108,83 @@ const Portfolio = () => {
         </SwiperSlide>
 
 
-
+        <SwiperSlide>
+          <a href="https://clientwakeel.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={wakeelclient}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
+        
+        <SwiperSlide>
+          <a href="https://q-gym-fyp.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={gymwebsite}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
 
         <SwiperSlide>
           <a href="https://collabways.com/" target="_blank" rel="noopener noreferrer">
             <div className="slide-content">
               <motion.img
                 src={MusicApp}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <a href="https://carshowroomfyp.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={carwebsite}
                 alt=""
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -183,11 +258,35 @@ const Portfolio = () => {
             </div>
           </a>
         </SwiperSlide>
+        <SwiperSlide>
+          <a
+            href="https://shorturlproject.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="slide-content">
+              <motion.img
+                src={shorturl}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && ( // Only show "Click Me" if showClickMe is true
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
 
-
-
-
-
+        
         <SwiperSlide>
           <div className="slide-content">
             <motion.img
@@ -209,6 +308,40 @@ const Portfolio = () => {
             )}
           </div>
         </SwiperSlide>
+
+        
+        <SwiperSlide>
+          <a
+            href="https://teachme-tau.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="slide-content">
+              <motion.img
+                src={teachme}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && ( // Only show "Click Me" if showClickMe is true
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
+
+
+
+
+
       </Swiper>
     </div>
   );
