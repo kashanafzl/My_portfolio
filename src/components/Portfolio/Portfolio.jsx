@@ -6,6 +6,8 @@ import Sidebar from "../../img/p1.png";
 import Ecommerce from "../../img/p3.png";
 import HOC from "../../img/p5.png";
 import p10 from "../../img/p10.png";
+import fyp from "../../img/2.png";
+import neez from "../../img/1.png";
 import gymwebsite from '../../img/g.png'
 import carwebsite from '../../img/g2.png'
 import shorturl from '../../img/g3.png'
@@ -81,7 +83,6 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
 
-
         <SwiperSlide>
           <a href="https://kashanafzl.github.io/J_business/" target="_blank" rel="noopener noreferrer">
             <div className="slide-content">
@@ -113,6 +114,30 @@ const Portfolio = () => {
             <div className="slide-content">
               <motion.img
                 src={wakeelclient}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
+        
+        <SwiperSlide>
+          <a href="https://kust-ioc-my-fyp.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={fyp}
                 alt=""
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -178,6 +203,33 @@ const Portfolio = () => {
               )}
             </div>
           </a>
+        </SwiperSlide>
+
+        
+
+        <SwiperSlide>
+          <a href="https://neez-blue.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={neez}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+
         </SwiperSlide>
 
         <SwiperSlide>
